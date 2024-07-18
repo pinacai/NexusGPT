@@ -63,7 +63,7 @@ def giveAiResponse(preferred_model, query):
 
 if __name__ == "__main__":
     # Printig Header
-    ascii_banner = pyfiglet.figlet_format("NexusGPT", font="standard")
+    ascii_banner = pyfiglet.figlet_format("Nexus GPT", font="standard")
     colored_banner = Fore.CYAN + Style.BRIGHT + ascii_banner + Style.RESET_ALL
     print(colored_banner)
 
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     print("type '/bye' to exit")
     print()
     while True:
-        query = input("\npinac-nexus> ")
+        query = input("NexusGPT> ")
         if query == "/bye":
             break
         else:
