@@ -30,7 +30,7 @@ class Gemini:
         )
         self.generalAssistantChain = self.generalAssistantPrompt | llm | output_parser
 
-    # For classifying the user query into specific task category
+    # For classifying the user's query into specific task category
     def classifyTaskCategory(self, user_input):
         try:
             aiResponse = self.taskClassificationChain.invoke({"text": user_input})

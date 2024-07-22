@@ -28,7 +28,6 @@ Our innovative terminal tool simplifies the interaction process, allowing users 
 
 By democratizing access to powerful AI capabilities, NexusGPT empowers users across various domains to harness the full potential of language models. This tool not only saves time and reduces frustration but also opens up new possibilities for creativity and problem-solving, making advanced AI assistance accessible to a broader audience.
 
-Inspired by <a href="https://github.com/danielmiessler/fabric">Fabric</a> but making it even better.
 
 ## 🏛️ Architecture
 
